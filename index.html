@@ -1,15 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>HTML Quiz</title>
+  <title>Stranger Things Quiz</title>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <div id="quiz-container">
-    <h1 id="question"></h1>
-    <ul id="choices"></ul>
-    <button id="submit-btn">Submit</button>
+  <div id="background-image">
+    <img src="images/Recreating-Stranger-Things-Theme_BlogPost.jpg" alt="Stranger Things Cover">
+    <div id="content">
+      <div id="home-page">
+        <h1>Welcome to The HTML Quiz Game</h1>
+        <p>Test your knowledge of the Upside Down and have an otherworldly experience!</p>
+        <button id="start-btn">Start Quiz</button>
+      </div>
+
+      <div id="quiz-container" style="display: none;">
+        <h1 id="question"></h1>
+        <ul id="choices"></ul>
+        <button id="submit-btn">Submit</button>
+        <button id="back-btn">Back to Homepage</button>
+        <p id="correct-answer" style="display: none;">Correct answer: <span id="correct-answer-text"></span></p>
+      </div>
+
+      <div id="scoreboard" style="display: none;">
+        <h1>Quiz Completed!</h1>
+        <p>Your final score is: <span id="score"></span></p>
+        <button id="restart-btn" style="display: none;">Restart Quiz</button>
+        <button id="back-to-home">Back to Homepage</button>
+        <p id="result"></p>
+      </div>
+    </div>
   </div>
+
   <script src="script.js"></script>
 </body>
 </html>
