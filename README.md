@@ -1,2 +1,3 @@
-I have developed this quiz game check it out on this link https://stranger-things-html-game.netlify.app/
+Developed this quiz check it out on this link https://coding-wiz.netlify.app/
+its under the Coding wiz file
  
